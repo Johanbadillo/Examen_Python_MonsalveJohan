@@ -27,7 +27,7 @@ while (booleano):
             precio=int(input("Ingrese el precio del ingrediente: "))
             stock=int(input("Ingrese el stock del ingrediente: "))
             diccionarioNuevo={
-                "numeroDato": (listaRobusta[len(listaRobusta)-1]["id"])+1,
+                "numeroDato":(listaRobusta[len(listaRobusta)-1]["numeroDato"])+1,
                 "nombre":nombre,
                 "descripcion":descripcion,
                 "precio":precio,
@@ -41,8 +41,21 @@ while (booleano):
             leerDatos(listaRobusta)
         elif(OpcionUsuario==3):
             Individual=int(input("Ingrese el numero del dato que deseas ver: "))
-            
-
+            mostrarUno(listaRobusta,Individual)
+        elif(OpcionUsuario==4):
+            print("=======================================\
+                \n     Actualizar de ingrediente nuevo      \
+                \n=======================================")
+            Individual=int(input("Ingrese el numero del dato que deseas ver: "))
+            mostrarUno(listaRobusta,Individual)
+            temporal=listaRobusta[Individual-1]
+            nombreTEM=str(input("Ingrese el nombre del ingrediente: "))
+            descripcionTEM=str(input("Ingrese una breve descripcion del ingrediente\n"))
+            precioTEM=int(input("Ingrese el precio del ingrediente: "))
+            stockTEM=int(input("Ingrese el stock del ingrediente: "))
+            dicActualizar={"numeroDato":(listaRobusta[len(listaRobusta)-1]["numeroDato"]),"nombre":nombreTEM,"descripcion":descripcionTEM,"precio":precioTEM,"stock":stockTEM}
+            listaRobusta[Individual-1]=dicActualizar
+        guardarJSON(listaRobusta)
     if (Opcion==2):
         print("\
             \n=======================================\
