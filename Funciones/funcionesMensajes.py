@@ -15,4 +15,5 @@ def mensajeCRUD():
         \n3. Leer un dato en especifico\
         \n4. Actualizar dato\
         \n5. Eliminar dato registrado\
+        \n6. Regresar al menu principal\
         \n=======================================")
