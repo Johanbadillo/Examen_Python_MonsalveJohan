@@ -1,0 +1,17 @@
+[
+    {
+        "numeroDato": 1,
+        "nombre": "ChefA",
+        "especialidad": "Carnes"
+    },
+    {
+        "numeroDato": 2,
+        "nombre": "ChefB",
+        "especialidad": "Cocina Vegetariana"
+    },
+    {
+        "numeroDato": 3,
+        "nombre": "ChefC",
+        "especialidad": "Gourmet"
+    }
+]

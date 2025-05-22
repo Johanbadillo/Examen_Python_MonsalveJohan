@@ -1,1 +1,9 @@
-[{"numeroDato": 1, "nombre": "Pan", "descripcion": "Pan de hamburguesa cl\u00e1sico", "precio": 2.5, "stock": 500}]
+[
+    {
+        "numeroDato": 1,
+        "nombre": "Pan",
+        "descripcion": "Pan de hamburguesa cl\u00e1sico",
+        "precio": 2.5,
+        "stock": 500
+    }
+]

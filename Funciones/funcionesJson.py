@@ -21,3 +21,13 @@ def abrirJSON1():
 def guardarJSON1(dic):
     with open("./Data/dataCategorias.json",'w') as outFile:
         json.dump(dic,outFile)
+
+def abrirJSON2():
+    dicFinal={}
+    with open("./Data/dataChefs.json",'r') as openFile:
+        dicFinal=json.load(openFile)
+    return dicFinal
+
+def guardarJSON2(dic):
+    with open("./Data/dataChefs.json",'w') as outFile:
+        json.dump(dic,outFile)
