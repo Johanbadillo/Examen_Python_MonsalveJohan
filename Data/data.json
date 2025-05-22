@@ -1,1 +1,1 @@
-[{"nombre": "pan de centeno", "descripcion": "pan integral mas caro", "precio": 9000, "stock": 50}]
+[{"numeroDato": 3, "nombre": "carne", "descripcion": "sabrosa", "precio": 15000, "stock": 10}, {"numeroDato": 2, "nombre": "1", "descripcion": "1", "precio": 1, "stock": 1}, {"numeroDato": 3, "nombre": "1", "descripcion": "1", "precio": 1, "stock": 1}]
