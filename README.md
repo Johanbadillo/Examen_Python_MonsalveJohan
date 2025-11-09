@@ -1,38 +1,54 @@
-## <p align="center"><strong>GESTOR DE DATOS DE CAFETERIA-CAMPUSLAND </strong></p>
-<p align="center">Este programa te ayudará a gestionar los gastos de la cafeteria de campusland de manera sencilla, controlada y comprensible para todo tipo de usuarios, permitiéndote llevar un registro claro y organizado para los ingredientes, las categoria y chefs.</p>
+<div align="center">
+
+# Gestor de Cafetería CampusLands  
+**Sistema CRUD para Inventario y Gastos**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
+![CRUD](https://img.shields.io/badge/CRUD-28A745?style=for-the-badge&logo=crud&logoColor=white)
 
 ---
 
-## ✨ Funcionalidades
+**JOHAN MONSALVE**  
 
-- **REGISTRAR LOS GASTOS DE LOS INGREDIENTES,CHEFS Y CATEGORIAS DE HAMBURGUESAS**: Ingresa los gastos para mantener un control detallado de los gastos que se lleva en la cafeteria de campusland.
-- **VISUALIZAR TUS GASTOS**: Consulta tus gastos individualmente o filtrados por categorías o rangos de tiempo según tus preferencias.
-- **ACTUALIZA TUS GASTOS**: Actualiza los gastos que has ingresado anteriormente para poder llevar un mejor control para las finanzas de la cafeteria
-- **ELIMINA REPORTES**: Elimina los gastos que no necesiten o fueron ingresados erroneamente, para que lleve mejor la gestion de datos de la cafeteria.
+![CampusLands • Cajasan 2025](https://img.shields.io/badge/CampusLands_%E2%80%A2_Cajasan_2025-FD7E14?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjEiPjwvc3ZnPg==&labelColor=E65100)
+![ruta](https://img.shields.io/badge/RUTA-Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+
+</div>
 
 ---
 
-## Instalación
+## Descripción del Proyecto
 
-<p>Para la instalacion del programa debemos clonar el repositorio del programa</p>
+**Gestor de Cafetería CampusLands** es un **sistema de gestión de inventario y gastos** desarrollado en **Python**, diseñado para optimizar el control de:
 
-```bash
-git clone https://github.com/Johanbadillo/Python_Proyecto
+- Ingredientes  
+- Categorías de hamburguesas  
+- Chefs  
+- Costos asociados  
+
+> **Operaciones CRUD completas** (Crear, Leer, Actualizar, Eliminar) sobre todos los módulos.  
+> **Datos persistentes en archivos JSON** – ¡Nunca pierdas tu inventario!
+
+---
+
+## Funcionalidades
+
+| Módulo | Acciones Disponibles |
+|-------|------------------------|
+| **Ingredientes** | Registrar, ver, actualizar, eliminar |
+| **Categorías** | Gestionar tipos de hamburguesas |
+| **Chefs** | Control de personal y asignaciones |
+| **Gastos** | Seguimiento por ítem y período |
+
+```mermaid
+graph TD
+    A[Menú Principal] --> B[Ingredientes]
+    A --> C[Categorías]
+    A --> D[Chefs]
+    A --> E[Gastos]
+    B --> B1[CRUD]
+    D --> D1[CRUD]
+    E --> E1[CRUD]
+    C --> C1[CRUD]
 ```
-<p>y para la ejecucion ejecuta el siguiente comando desde la terminal</p>
-
-```bash
-python3 Examen_Python_MonsalveJohan.py
-```
-
----
-✅ Explicación:
-- 
-<p align="left">El programa esta enfocado en optimizar la gestion de ingredientes, hamburguesas, categorias y chefs mediante un inventario en archivos json. Su proposito principal es poder realizar las operaciones 
-CRUD(Crear, Leer, Actualizar y eliminar) sobre ingredientes, categorias, hamburguesas y chefs para llevar de una manera mas clara y optimizar a la hora de hacer inventario sobre la cafeteria y llevar un control de los gastos </p>
-
-
-
-<p align="center">¡Disfruta de nuestro programa-!</p>
-
- 
